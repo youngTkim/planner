@@ -1,0 +1,11 @@
+
+{
+  "extends": ["next"],
+  "rules": {
+    "@next/next/no-img-element": 0,
+    "@next/next/no-sync-scripts": 0,
+    "@next/next/no-server-import-in-page": 0,
+    "jsx-a11y/role-supports-aria-props": 0,
+    "react/display-name": [0,{ "ignoreTranspilerName": false }]
+  }
+}
